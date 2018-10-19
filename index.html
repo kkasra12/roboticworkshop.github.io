@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/favicon.ico">
+    <link rel="stylesheet" href="static/home.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <title>
+کارگاه ملی رباتیک
+    </title>
+  </head>
+  <body  data-spy="scroll" data-target=".navbar">
+
+    <nav class="navbar navbar-toggleable-md bg-inverse navbar-inverse fixed-top navbar-background">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <a class="navbar-brand" href="#">
+     <img src="static/navbar_logo.png" alt="logo" class="navbar_logo">
+   </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-right">
+              <li class='nav-item'><a class='nav-link'href="/union_sign_in"> ثبت نام </a></li>
+              <li class='nav-item'><a class='nav-link'href="/news"> اخبار </a></li>
+              <li class="nav-item"><a class="nav-link" href="#call"> تماس با ما </a></li>
+              <li class='nav-item'><a class='nav-link'href="#schedule"> زمانبندی ها </a></li>
+              <li class=" nav-item active"><a class="nav-link" href="#home">خانه</a></li>
+            </ul>
+          </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row first-row" id="home" dir="rtl">
+    <div class="col-sm-3">
+
+    </div>
+      <div class="col-sm-4 div_remain_date">
+        <div class="table_remain_date">
+          <table class="date_remain">
+            <tr>
+              <td  class="date_remain_cell">
+                -261<br>
+                روز
+              </td>
+              <td class="date_remain_cell">
+                23<br>
+                ساعت
+              </td>
+              <td class="date_remain_cell">
+                35<br>
+                دقیقه
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div> <!-- the end of first row -->
+
+<div class="container-fluid">
+  <div class="row" id="slider">
+    <div class="carousel slide" id="demo" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        
+        <li data-target="#demo" data-slide-to="1"></li>
+        
+      </ul>
+      <div class="carousel-inner">
+        
+          
+            <div class="carousel-item active">
+          
+              <img src="static/slider/pic0.jpg" alt="alt1" style="height:100%;">
+              <div class="carousel-caption">
+                همراه با کلاس های عملی
+              </div>
+            </div>
+        
+          
+            <div class="carousel-item">
+          
+              <img src="static/slider/pic1.jpg" alt="alt2" style="height:100%;">
+              <div class="carousel-caption">
+                شروع ثبت نام
+              </div>
+            </div>
+        
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <a href="#">
+        <img src="static/quadcopter.jpg" alt="توضیحات">
+      </a>
+      <button type="button" class="btn btn-primary description-caption" data-toggle="modal" data-target="#modal_quad">
+        quadcopter
+      </button>    </div>
+    <!------------------------------------------------------------------------------------------------->
+    <div class="modal fade" id="modal_quad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              ربات های انسان نما
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="modal-scroll">
+              ﻿دنیای هوانوردی در سالهای اخیر شاهد رشد و گسترش روزافزون پرنده های بدون سرنشین بوده است. با گسترش استفاده از این پرنده ها به تدریج سرنشینان هواپیماهای نظامی و یا غیرنظامی 1 یا 2 نفره از اوج آسمانها به زمین می آیند و پرنده های نسل جدید، بدون خلبان مستقیم، در آسمان ها مأموریتهای مورد نظر مهندسان هوافضا و برنامه ریزان صنعتی را به انجام می رسانند. به دلیل کاربردهای گستردة هواپیماهای بدون سرنشین در امور نظامی و غیرنظامی، امروزه بسیاری از کشورها در حال بهره گیری و یا توسعة این پرنده ها می باشند. 41 کشور دارای تکنولوژی تولید و بهره برداری از پرنده های بدون سرنشین می باشند. استفاده این پرنده ها تنها محدود به کشورهای صنعتی و توسعه یافته نمی باشد. بلکه بسیاری کشورهای در حال توسعه نیز در زمرة تولیدکنندگان این پرنده ها می باشند.
+
+ربات های پرنده
+کلیه رباتهایی که به هر نحو توانایی بلند شدن از زمین یا به عبارت دیگر قابلیت پرواز را داشته باشند، در این رده قرار می گیرند. در مورد هدایت این نوع روباتها در آسمان نیز می توان از رادیو کنترل یا ابزار های مشابه استفاده نمود . در بعضی از مواقع بعضی از این رباتها برای انجام عملیات پروازی خاصی برنامه ریزی شده و به طور کاملا اتوماتیک ماموریت مورد نظر را انجام می دهند . برای اهدافی مانند عکس برداری هوایی، تهیه نقشه های زمین شناسی و حمل قطعات و ابزار آلات از این نوع ربات ها استفاده می شود.
+جدیدا نیز فعالیت گروههای تحقیقاتی در زمینه شبیه سازی پرواز پرندگان و پیاده سازی آن در رباتها برای بلند شدن از زمین و گشت زنی در آسمان کاملا نتیجه بخش بوده است.
+از جمله نمونه های داخلی و خارجی کاربرد این ربات ها می توان موارد زیر را مثال زد:
+ پرنده امداد گر پارس
+پرنده ی حفاظت محیط زیست سیستان و بلوچستان
+
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------->
+
+
+    <div class="col-sm-6">
+      <a href="#">
+        <img src="static/humanoid.jpg" alt="">
+      </a>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary description-caption" data-toggle="modal" data-target="#modal_humanoid">
+        humanoid
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal_humanoid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                ربات های پرنده
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-scroll">
+                معرفی ربات های انسان نما
+
+رباتهای انسان نما، یکی از جذاب ترین و در عین حال پیشرفته ترین شاخه ربات سازی است که طی سالهای اخیر، ذهن دانشمندان را به سمت خود جلب نموده و کشورهای پیشرفته، سرمایه گذاریهای زیادی را در این زمینه انجام داده و انجام می دهند .روبات انسان نماhumanoids همان طور که از اسمش پیداست به روبات خودکاری گفته می شود که ظاهری شبیه انسان داشته باشد. یعنی دارای سر، دو بازو و دو پا باشد. البته ممکن است برخی از آنها دارای صورت، چشم و دهان، انگشتان و سایر اعضای مشابه انسان نیز باشند. این روبات دارای سنسورها و الگوریتم‌های پیچیده ای است که باعث می شود روبات بتواند غیر از تقلید ظاهری از انسان، توانائی هایی مثل دیدن، شنیدن، یادگیری از محیط و همچنین دیگر توانایی های ذهنی انسان را نیز تقلید کند.
+
+ویژگی این روبات ها
+
+یکی از ویژگی های مهم روبات انسان نما راه رفتن روی دو پا است. حفظ تعادل روبات روی دو پا، کار سختی است که باعث می شود تا کنترل روبات نسبت به روباتی که روی دو چرخ حرکت می کند، بسیار مشکل شود. از طرفی، حرکت بر روی دوپا قابلیت های زیادی نظیر بالا رفتن از پله ها و حرکت در محیط هایی که مخصوص آدمی ساخته شده اند را به روبات می‌دهد که در روبات‌های دیگر، مثلا روبات های چرخدار، وجود ندارد. ‌
+
+اهمیت روبات های انسان نما
+
+به نظر می رسد که جامعه آینده، یعنی ۲۰-۳۰ سال دیگر، تاثیر زیادی از چنین روبات‌هایی بپذیرد و نقش مهمی در بخش های مختلف جامعه به این روبات ها داده شود.
+
+از طرف دیگر ساختن روباتی که شبیه به انسان باشد، برای محققین بسیار جالب بوده و به علت این که برای ساختن یک روبات انسان نما مجبور به استفاده از علوم مختلفی نظیر مکانیک، الکترونیک، برنامه نویسی هوشمند، ارتباط انسان و ماشین، زبان شناسی و غیره است چنین مساله ای ذاتا یک مساله سخت به شمار می رود و تلاش زیادی برای حل کردن آن نیز انجام می شود.
+شروع تحقیقات در این زمینه
+
+تحقیقات در این زمینه هم در صنعت و هم در دانشگاه‌ها انجام می شود. ژاپنی‌ها در دهه ۷۰ میلادی اولین روبات های انسان نما را ساختند که می توانست به زبان ژاپنی مکالمه کند و برخی حالت های چهره انسان را تقلید کند. در دهه ۸۰ اولین روبات هایی که روی دو پا راه می رفتند، معرفی شدند و در اواخر دهه ۹۰ شرکت هوندا با معرفی روبات های دوپای خود انقلابی در زمینه روبات های انسان نما به وجود آورد که باعث شد در ده سال گذشته این رشته از تحقیقات به سرعت در تمامی جهان گسترش یاید.
+با پیشرفت صنایع مختلفی همچون ساخت موتورهای کوچک و قوی و در عین حال کم مصرف، ساخت پردازنده های قوی و کوچک، باتری‌های با دوام، سنسورهای کوچک و حساس، و به وجود آمدن شبیه سازی های کامپیوتری، بسیاری از جنبه‌های مشکل ساخت روبات انسان نما برطرف شده و اکنون می‌توان با کمتر از ۱۰۰۰ دلار روبات آماده ای خرید که قادر به راه رفتن روی دو پا باشد.
+
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-sm-6 buttons">
+      <a href="/union_sign_in" class="btn btn-primary margin_top_25" role="button" aria-pressed="true">
+          ورود انجمن ها
+          <i class="fas fa-users"></i>
+      </a>
+      <br>
+      <a href="/exam_sign_in" class="btn btn-primary margin_top_25 disabled" role="button" aria-pressed="true">
+        آزمون
+        <i class="fas fa-edit"></i>
+      </a>
+
+    </div>
+    <div class="col-sm-6">
+      <p class="description-text">
+        دومین دوره کارگاه ملی رباتیک از دو بخش کلی و با محوریت ارتقای سطح دانش علم رباتیک و پیوند هرچه بیشتر فضای آکادمیک با صنعت و دانش مهارتی برگزار می شود.
+بخش اول این رویداد از دانشجویان علاقه مند دعوت میکند تا از طریق انجمن های علمی دانشکده خود در آزمون آنلاین کارگاه ملی رباتیک به میزبانی دانشگاه تبریز ثبت نام کنند. نفرات برگزیده این این آزمون که روز ۱۷ام بهمن ماه برگزار می شود می توانند تا در بخش دوم این کارگاه رباتیک حضور داشته باشند و در دو زمینه مباحث تئوری و عملی آموزش ببینند.
+مرحله دوم کارگاه شامل آیین افتتاحیه و معرفی دوره و دو روز کلاس های آموزشی (۳و۴ اسفند ۱۳۹۶) با محوریت FlyingRobots (ربات های پرنده) و HumanoidRobots (ربات های انسان نما) است.
+
+      </p>
+    </div>
+  </div>
+
+</div>
+  <div class="row" id="schedule">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="faa">
+                <i class="fas fa-hourglass-end"></i>
+              </div><br>
+              <b>
+                پایان مهلت ثبت نام
+              </b><br>
+              <p dir="rtl">
+                ۱۶ بهمن
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="faa">
+                <i class="fas fa-file-code"></i>
+              </div><br>
+              <b>
+                ازمون انلاین
+              </b><br>
+              <p dir="rtl">
+                ۱۷ بهمن
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="faa">
+                <i class="fab fa-reddit-alien"></i>
+              </div><br>
+              <b>
+                کارگاه عملی
+              </b><br>
+              <p dir="rtl">
+                ۱۱ و ۱۲ بهمن
+              </p>
+           </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+
+  <div class="row">
+    <h2>
+      تیم ربات های انسان نما
+    </h2>
+  </div>
+  <div class="row teachers">
+    <div class="col-sm-4">
+      <figure>
+        <img src="static/profile/aghdasi.jpg" alt="" class="rounded-circle figure-img img-fluid">
+        <figcaption class="figure-caption">سيد هادي اقدسي علمداري</figcaption>
+        <p class="role">
+          استاديار و عضو هیئت علمی دانشکده مهندسی برق و کامپیوتر
+        </p>
+        <p class="w_role">
+          سرپرست تیم ربات های انسان نما
+        </p>
+      </figure>
+    </div>
+    <div class="col-sm-4">
+      <figure>
+        <img src="static/profile/saeedvand.jpg" class="rounded-circle figure-img img-fluid">
+        <figcaption class="figure-caption">سعید سعیدوند</figcaption>
+        <p class="role">
+          دانشجوی دکتری دانشکده برق و کامپیوتر
+        </p>
+        <p class="w_role">
+          استاد کارگاه های انسان نما
+        </p>
+      </figure>
+    </div>
+    <div class="col-sm-4">
+      <figure>
+        <img src="static/profile/ariania.jpg" class="rounded-circle figure-img img-fluid">
+        <figcaption class="figure-caption">عذرا اریانیا</figcaption>
+        <p class="role">
+          دانشجوی دکتری دانشکده برق و کامپیوتر
+        </p>
+        <p class="w_role">
+          استاد کارگاه های انسان نما
+        </p>
+      </figure>
+    </div>
+  </div>
+  <div class="row">
+    <h2>
+      <br><br><br>
+      تیم ربات های پرنده
+    </h2>
+  </div>
+  <div class="row teachers">
+    <div class="col-sm-4" style="margin-right:15%;">
+      <figure>
+        <img src="static/profile/kharati.jpg" class="rounded-circle figure-img img-fluid">
+        <figcaption class="figure-caption">حامد خراطي شيشوان</figcaption>
+        <p class="role">
+          استاديار و عضو هیئت علمی دانشکده مهندسی برق و کامپیوتر
+        </p>
+        <p class="w_role">
+          سرپرست تیم ربات های پرنده
+        </p>
+      </figure>
+    </div>
+    <div class="col-sm-4">
+      <figure>
+        <img src="static/profile/fatahi.jpg" class="rounded-circle figure-img img-fluid">
+        <figcaption class="figure-caption">محمد فتاحي</figcaption>
+        <p class="role">
+          فارق التحصیل دانشکده برق و کامپیوتر
+        </p>
+        <p class="w_role">
+          استاد کارگاه  های ربات های پرنده
+        </p>
+      </figure>
+    </div>
+  </div>
+
+  <div class="row">
+    <h2>
+      <br><br><br>
+      اساتید مسئول
+    </h2>
+  </div>
+  <div class="row teachers">
+    <div class="col-sm-4">
+        <figure>
+          <img src="static/profile/zolfi.jpg" class="rounded-circle figure-img img-fluid">
+          <figcaption class="figure-caption">مينا زلفي ليقوان</figcaption>
+          <p class="role">
+            استاديار و عضو هیئت علمی دانشکده مهندسی برق و کامپیوتر
+          </p>
+          <p class="w_role">
+            معاونت مرکز نوآوری دانشگاه تبریز
+          </p>
+        </figure>
+    </div>
+    <div class="col-sm-4">
+        <figure>
+          <img src="static/profile/kooze.jpg" class="rounded-circle figure-img img-fluid">
+          <figcaption class="figure-caption">ضياالدين دايي کوزه کناني</figcaption>
+          <p class="role">
+            استاد و رئیس دانشکده مهندسی برق و کامپیوتر
+          </p>
+          <p class="w_role">
+            رئیس مرکز نوآوری دانشگاه تبریز
+          </p>
+        </figure>
+    </div>
+    <div class="col-sm-4">
+        <figure>
+          <img src="static/profile/ghanbari.jpg" class="rounded-circle figure-img img-fluid">
+          <figcaption class="figure-caption">احمد قنبري</figcaption>
+          <p class="role">
+            استاد دانشکده مهندسی فناوری های نوین
+          </p>
+          <p class="w_role">
+            رئیس انجمن مکارترونیک ایران
+          </p>
+        </figure>
+    </div>
+  </div>
+  <div class="row">
+    <h2>
+      <br><br><br>
+      کادر اجرایی
+    </h2>
+  </div>
+  <div class="row admins">
+    <div class="col-sm-6">
+      <p>
+        <div class="name">
+          نفیسه توفیقی
+        </div>
+        <div class="role">
+          دبیر انجمن رباتیک دانشکده برق و کامپیوتر
+        </div>
+        <div class="w_role">
+          دانشجوی کارشناسی مهندسی کامپیوتر ورودی ۹۵
+        </div>
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <p>
+        <div class="name">
+          کسری اسکندری
+        </div>
+        <div class="role">
+          عضو شورای مرکزی انجمن رباتیک دانشکده برق و کامپیوتر
+        </div>
+        <div class="w_role">
+          دانشجوی کارشناسی مهندسی کامپیوتر ورودی ۹۵
+        </div>
+      </p>
+    </div>
+  </div>
+  <div class="row admins">
+    <div class="col-sm-6">
+      <p>
+        <div class="name">
+          مهدیه فرج وند
+        </div>
+        <div class="role">
+          دبیر انجمن علمی مهندسی مکاترونیک
+        </div>
+        <div class="w_role">
+          دانشجوی کارشناسی ارشد مهندسی مکاترونیک ورودی ۹۵
+        </div>
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <p>
+        <div class="name">
+          حسام کاوه
+        </div>
+        <div class="role">
+          عضو شورای مرکزی انجمن علمی مخندسی مکاترونیک
+        </div>
+        <div class="w_role">
+          دانشجوی کارشناسی ارشد مهندسی مکاترونیک ورودی ۹۵
+        </div>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="row last_row" id="call">
+    <div class="col-sm-5"></div>
+    <div class="col-sm-2">
+      <table class="call_us_table">
+          <tbody>
+            <tr>
+              <th style="color:#000;text-decoration:none;text-align:center;">
+            راه های ارتباط با ما
+              </th>
+          </tr>
+          <tr style="border-top-style:solid;border-color:#0cc;">
+            <td>
+              <a href="https://t.me/test" target="_blank" class="call_us_link"><i class="fab fa-telegram"></i></a>
+              <a href="https://instagram.com" target="_blank" class="call_us_link" clas><i class="fab fa-instagram"></i></a>
+              <a href="09199542718" target="_blank" class="call_us_link"><i class="fas fa-phone"></i></a>
+              <a href="mailto:rtabrizu@gmail.com" target="_blank" class="call_us_link"><i class="far fa-envelope"></i></a>
+              <a href="https://goo.gl/maps/scLtd8C8Sck" target="_blank" class="call_us_link"><i class="fas fa-map-marker-alt"></i></a>
+            </td>
+          </tr>
+        </tbody></table>
+    </div>
+  </div>
+
+    <div class="row" dir="rtl">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+      <p style="font-size:0.8rem; text-align:center;">
+      طراحی و پیاده سازی
+      <a href="hhtps://t.me/kasryeskandaraaa">
+        کسری اسکندری
+      </a>
+        <br>
+        تمام حقوق این سایت متعلق به انجمن رباتیک دانشگاه تبریز میباشد
+      </p>
+    </div>
+    </div>
+
+
+  </div>
+
+  </body>
+</html>
