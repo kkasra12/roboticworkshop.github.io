@@ -1,0 +1,187 @@
+@font-face {
+    font-family: wrobotic;
+    src:url("tabasom.ttf");/* "{{url_for('static',filename='irsansb.ttf')}}";*/
+}
+@font-face {
+    font-family: broya;
+    src: url("BRoya.ttf");
+}
+
+*{
+  font-family: wrobotic !important;
+  font-weight: bold;
+}
+
+body{
+  font-size: 200%;
+}
+
+
+.call_us_link{
+  color: #000;
+  font-size: 1.3rem;
+}
+.call_us_link:hover{
+  color: #ddd33e;
+  font-size: 1.5rem;
+}
+.call_us_table{
+  min-width: 130px;
+  margin-top: 24vw;
+}
+.navbar-right{
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 100%;
+}
+.description-caption{
+  margin-left: 33%;
+  text-decoration: none;
+}
+.navbar-background{
+  background-image: url("navbar.png");
+  background-size: 100%;
+  background-position-y: 100%;
+}
+.first-row{
+  background-image:url("banner.gif");/* url("{{ url_for('static',filename='bckgrnd.jpg') }}");*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: right;
+  margin-top: 50px;
+  height: 40vw;
+}
+.header{
+  margin-top:auto;
+  margin-bottom: 1vw;
+  font-family: "irsansbold";
+  font-size: 4vw;
+  color: #999;
+}
+.div_remain_date{
+  margin-top: auto;
+  margin-bottom: 4vw;
+  font-size: 1.7vw;
+  font-family: "irsansbold";
+  color: #999;
+}
+.second_row{
+  text-align: center;
+}
+.schedule_header{
+  font-size: 2.2vw;
+  font-family: broya;
+}
+.schedule_body{
+  font-size: 1.5vw;
+}
+.header_small{
+  font-size: 1.7vw;
+}
+.date_remain{
+    text-align: center;
+    margin-right: -5vw;
+    color: #e6d2a2;
+    margin-top: -8vw;
+}
+.buttons{
+  text-align: center;
+}
+.table_remain_date{
+  text-align: right;
+}
+.date_remain_cell{
+  width: 37%;
+  font-size: 2.7vw;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+}
+.navbar-header{
+}
+.last_row{
+  background-image: url("call_us.jpg");
+  height: 48vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  align: center;
+}
+.links{
+  color: #ecf3f4;
+  width: 50px;
+}
+table{
+  margin-top: 50px;
+  text-align: center;
+}
+.margin_top_25{
+  margin-top: 25%;
+}
+.btn{
+  padding: 1rem;
+}
+
+.btn:hover{
+  border-radius: 2rem;
+}
+a.btn.disabled:hover{
+  cursor: not-allowed;
+}
+
+.faa{
+  font-size: 1.5rem;
+}
+
+.modal-scroll{
+  direction: rtl;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.navbar_logo{
+  width: auto;
+  height: 40px;
+}
+
+.carousel-caption{
+  bottom: -17px!important;
+}
+
+.description-text{
+  direction: rtl;
+  font-size: 1.2rem;
+  margin-top: 25%;
+}
+figure{
+  text-align: center;
+}
+.teachers{
+  direction: rtl;
+}
+.role{
+  font-size: 1.2rem;
+  color: #a59696;
+}
+.img-fluid{
+  width: 45%;
+}
+h2{
+  margin-left: auto;
+  margin-right: auto;
+}
+.admins{
+  direction: rtl;
+}
+.name{
+  font-size: 1.2rem;
+}

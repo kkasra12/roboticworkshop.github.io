@@ -1,0 +1,39 @@
+.q_body{
+  direction: rtl;
+  text-align: right;
+}
+.navbar-right{
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-background{
+  background-image: url("navbar.png");
+}
+.navbar-collapse{
+  width: unset;
+}
+.q1{
+  width: 100%;
+}
+hr{
+  margin-top: 2rem;
+}
+.row{
+  direction: rtl;
+}
+h1{
+  margin-bottom: 3vw!important;
+}
+.container{
+  margin-top: 140px;
+}
+form{
+  width: 100%;
+}
+.finish_line{
+  border-color: #0A1D3B;
+  border-width: 4px;
+}
+.btn{
+  margin-left: 50%;
+}

@@ -1,0 +1,29 @@
+.first-row{
+  margin-top: 60px;
+}
+.extra_info{
+  font-size: .75rem;
+  color: #808080;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.navbar-right{
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-background{
+  background-image: url("navbar.png");
+}
+.navbar-collapse{
+  width: unset;
+}
+.error{
+  color: #f00;
+  font-size: .6rem;
+}
+
+.navbar_logo{
+  width: 50px;
+}

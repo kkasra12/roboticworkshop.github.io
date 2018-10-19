@@ -1,0 +1,17 @@
+img.card-img-top{
+	width: 100%;
+	margin-bottom: 20px;
+}
+div.button{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+p.card-text{
+	word-break: break-all;
+}
+div.card{
+	height: 100%;
+	padding-bottom: 60px;
+}
